@@ -1,0 +1,2 @@
+$param=Get-Azvirtualnetwork -Resourcegroupname "Test" -Name "maha-vnet"
+Set-Azvirtualnetwork -virtualnetwork $param
